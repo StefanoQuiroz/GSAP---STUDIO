@@ -93,12 +93,13 @@
     height: 100%;
     display: flex;
     justify-content: center;
+    overflow: hidden; //para esconder la barra vertical a causa del y:  de GSAP
   }
   
   .images-left, .images-right{
     display: flex;
     justify-content: center;
-    width: 20%;
+    width: 40%;
     
   }
   
